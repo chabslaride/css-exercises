@@ -1,0 +1,17 @@
+
+.paragraph{
+    background-color: pink;
+    font-family: Verdana, DejaVu, sans-serif;
+}
+.paragraph.class {
+    font-size: 30px;
+}
+.sec-el {
+    color: blue;
+    font-size: 36px;
+}
+#a-id {
+    background-color: lightgreen;
+    font-size: 30px;
+    font-weight: bold;
+}
