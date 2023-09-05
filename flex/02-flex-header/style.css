@@ -1,6 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+
 }
 
 .logo {
@@ -10,11 +21,17 @@
   background: white;
   padding: 4px 32px;
 }
+ ul li {
+  display: inline;
+ }
+
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  padding-inline-start: 0;
 }
+
 
 a {
   font-size: 22px;
@@ -22,4 +39,41 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  
+}
+
+
+/* desired outcome #2 */
+
+.header-2 {
+  font-family: monospace;
+  background: papayawhip;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 0 10px;
+
+}
+
+.logo2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: tomato;
+  background: white;
+  padding: 2px 12px;
+}
+
+.header-2 li a {
+  font-size: 10px;
+  background: white;
+  padding: 5px;
+  /* this removes the line under the links */
+  text-decoration: none;
+ 
+}
+ul.ul2 {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
